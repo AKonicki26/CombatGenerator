@@ -1,4 +1,6 @@
-﻿namespace ScenarioGeneration.Enemy;
+﻿using ScenarioGeneration.Status;
+
+namespace ScenarioGeneration.Enemy;
 
 using Weapon;
 
@@ -22,8 +24,9 @@ public class Dragon : Enemy
 
         public override void Use(Entity target)
         {
+            target.ApplyEffect(new BurnEffect(duration: 3, damagePerTurn: 5));
             target.TakeDamage(baseDamage);
-            Console.WriteLine("Fire Breath!!");
+            Console.WriteLine("Fire Breath!! Target is burning!");
         }
     }
 }
