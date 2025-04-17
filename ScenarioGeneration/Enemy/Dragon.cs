@@ -22,6 +22,7 @@ public class Dragon : Enemy
     {
         private static int baseDamage = 10;
 
+        public override float Damage => baseDamage;
         public override Element Element => Element.Fire;
 
         public override void Use(Entity target)
