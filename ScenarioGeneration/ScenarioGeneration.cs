@@ -9,7 +9,7 @@ public class ScenarioGeneration
         var generator = new CombatGenerator();
         generator.SetElement(Element.Fire);
         generator.SetLevel(4);
-        generator.SetEnemyCount(3);
+        generator.SetEnemyCount(6);
 
         List<Enemy> enemies = generator.GenerateEnemies();
 
