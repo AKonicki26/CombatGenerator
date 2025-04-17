@@ -14,5 +14,6 @@ public class LightningStrike : Weapon
     {
         target.TakeDamage(baseDamage);
         Console.WriteLine("A bolt of lightning crashes down!");
+        target.ApplyEffect(new ParalyzedEffect(2, 0.35f));
     }
 }
