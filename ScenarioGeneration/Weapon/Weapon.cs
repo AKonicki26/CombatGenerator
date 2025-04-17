@@ -4,7 +4,7 @@ public abstract partial class Weapon
 {
     private int _level;
     public int Level => _level;
-    
+
     private string _name;
     public string Name => _name;
 

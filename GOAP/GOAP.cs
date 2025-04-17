@@ -1,6 +1,3 @@
 ﻿namespace GOAP;
 
-public class GOAP
-{
-    
-}
+public class GOAP { }
