@@ -27,6 +27,14 @@ public static class ElementEffectiveness
             Element.Ice,
             new() { Element.Water }
         },
+        {
+            Element.Poison,
+            new() { }
+        },
+        {
+            Element.Lightning,
+            new() { }
+        },
     };
 
     public static ElementMap NotVeryEffective = new()
@@ -39,6 +47,18 @@ public static class ElementEffectiveness
             Element.Water,
             new() { Element.Ice }
         },
+        {
+            Element.Poison,
+            new() { }
+        },
+        {
+            Element.Lightning,
+            new() { }
+        },
+        {
+            Element.Ice,
+            new() { }
+        },
     };
 
     public static ElementMap Useless = new()
@@ -46,6 +66,22 @@ public static class ElementEffectiveness
         {
             Element.Ice,
             new() { Element.Fire }
+        },
+        {
+            Element.Poison,
+            new() { }
+        },
+        {
+            Element.Lightning,
+            new() { }
+        },
+        {
+            Element.Fire,
+            new() { }
+        },
+        {
+            Element.Water,
+            new() { }
         },
     };
 }
