@@ -15,7 +15,7 @@ public class Dragon : Enemy
     public override void Attack(Entity target)
     {
         Weapons.Random()?.Use(target);
-        Console.WriteLine($"Dragon is attacking {target.Name}");
+        Console.WriteLine($"Level {Level} Dragon is attacking {target.Name}");
     }
 
     protected class FireBreath : Weapon

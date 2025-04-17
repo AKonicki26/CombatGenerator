@@ -53,7 +53,7 @@ public abstract class Entity
 
     public byte Defense { get; set; } = 0;
 
-    public List<Weapon.Weapon> Weapons { get; }
+    public List<Weapon.Weapon> Weapons { get; } = new();
     public abstract void Attack(Entity target);
 
     public void TakeTurn()
