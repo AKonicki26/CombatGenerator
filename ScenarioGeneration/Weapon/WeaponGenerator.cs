@@ -37,9 +37,6 @@ public abstract partial class Weapon
 
     internal void SetBaseDamage(float baseDamage)
     {
-        // You might need to make _baseDamage non-readonly to allow this
-        typeof(Weapon)
-            .GetField("_baseDamage", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)?
-            .SetValue(this, baseDamage);
+        _baseDamage = baseDamage;
     }
 }

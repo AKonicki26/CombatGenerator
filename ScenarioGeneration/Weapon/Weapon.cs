@@ -7,8 +7,8 @@ public abstract partial class Weapon
     
     private string _name;
     public string Name => _name;
-    
-    private float _baseDamage { get; }
+
+    private float _baseDamage;
     public abstract float Damage { get; }
     public abstract Element Element { get; }
     public abstract void Use(Entity target);
