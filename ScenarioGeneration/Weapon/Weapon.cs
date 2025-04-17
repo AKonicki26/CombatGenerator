@@ -1,7 +1,16 @@
 ﻿namespace ScenarioGeneration.Weapon;
 
-public abstract class Weapon
+public abstract partial class Weapon
 {
+    private int _level;
+    public int Level => _level;
+    
+    private string _name;
+    public string Name => _name;
+    
+    private float _baseDamage { get; }
+    public abstract float Damage { get; }
+    public abstract Element Element { get; }
     public abstract void Use(Entity target);
 }
 

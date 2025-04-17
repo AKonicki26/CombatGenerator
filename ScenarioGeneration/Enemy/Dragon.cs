@@ -22,6 +22,8 @@ public class Dragon : Enemy
     {
         private static int baseDamage = 10;
 
+        public override Element Element => Element.Fire;
+
         public override void Use(Entity target)
         {
             target.ApplyEffect(new BurnEffect(duration: 3, damagePerTurn: 5));
@@ -29,4 +31,6 @@ public class Dragon : Enemy
             Console.WriteLine("Fire Breath!! Target is burning!");
         }
     }
+
+    public override Element Element => Element.Fire;
 }
