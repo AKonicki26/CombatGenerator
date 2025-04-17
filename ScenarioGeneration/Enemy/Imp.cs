@@ -1,9 +1,7 @@
 using ScenarioGeneration.Status;
 using ScenarioGeneration.Weapon;
 
-
 namespace ScenarioGeneration.Enemy;
-
 
 public class FireImp : Enemy
 {
