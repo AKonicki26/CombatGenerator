@@ -1,8 +1,8 @@
-namespace ScenarioGeneration.Enemy;
+namespace ScenarioGeneration.Enemies;
 
-using Weapon;
+using Weapons;
 
-public class ToxicCrawler : Enemy
+public class ToxicCrawler : Enemies.Enemy
 {
     public override void Attack(Entity target)
     {

@@ -1,8 +1,8 @@
-namespace ScenarioGeneration.Enemy;
+namespace ScenarioGeneration.Enemies;
 
-using Weapon;
+using Weapons;
 
-public class StormWolf : Enemy
+public class StormWolf : Enemies.Enemy
 {
     public override void Attack(Entity target)
     {

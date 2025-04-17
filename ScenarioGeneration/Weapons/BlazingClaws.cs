@@ -1,6 +1,6 @@
 using ScenarioGeneration.Status;
 
-namespace ScenarioGeneration.Weapon;
+namespace ScenarioGeneration.Weapons;
 
 public class BlazingClaws : Weapon
 {

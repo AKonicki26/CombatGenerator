@@ -1,8 +1,8 @@
-namespace ScenarioGeneration.Enemy;
+namespace ScenarioGeneration.Enemies;
 
-using Weapon;
+using Weapons;
 
-public class WaterSprite : Enemy
+public class WaterSprite : Enemies.Enemy
 {
     public override void Attack(Entity target)
     {

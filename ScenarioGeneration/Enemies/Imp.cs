@@ -1,9 +1,9 @@
 using ScenarioGeneration.Status;
-using ScenarioGeneration.Weapon;
+using ScenarioGeneration.Weapons;
 
-namespace ScenarioGeneration.Enemy;
+namespace ScenarioGeneration.Enemies;
 
-public class FireImp : Enemy
+public class FireImp : Enemies.Enemy
 {
     public override void Attack(Entity target)
     {

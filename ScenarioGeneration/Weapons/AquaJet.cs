@@ -1,4 +1,4 @@
-namespace ScenarioGeneration.Weapon;
+namespace ScenarioGeneration.Weapons;
 
 public class AquaJet : Weapon
 {

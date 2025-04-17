@@ -1,4 +1,4 @@
-﻿namespace ScenarioGeneration.Weapon;
+﻿namespace ScenarioGeneration.Weapons;
 
 public abstract partial class Weapon
 {

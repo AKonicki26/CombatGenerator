@@ -1,6 +1,4 @@
-﻿namespace ScenarioGeneration.Enemy;
-
-using Weapon;
+﻿namespace ScenarioGeneration.Enemies;
 
 public abstract partial class Enemy : Entity
 {

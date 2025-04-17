@@ -1,10 +1,10 @@
-﻿namespace ScenarioGeneration.Enemy;
+﻿namespace ScenarioGeneration.Enemies;
 
-using Weapon;
+using Weapons;
 
-public class EnemyGenerator(Enemy enemy)
+public class EnemyGenerator(Enemies.Enemy enemy)
 {
-    public Enemy Result => enemy;
+    public Enemies.Enemy Result => enemy;
 
     public void GiveWeapon(Weapon w)
     {
