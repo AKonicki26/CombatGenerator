@@ -4,11 +4,6 @@ using Weapon;
 
 public class StormWolf : Enemy
 {
-    public StormWolf()
-    {
-        Weapons.Add(new LightningStrike());
-    }
-
     public override void Attack(Entity target)
     {
         Weapons.Random()?.Use(target);

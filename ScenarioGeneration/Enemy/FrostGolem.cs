@@ -4,11 +4,6 @@ using Weapon;
 
 public class FrostGolem : Enemy
 {
-    public FrostGolem()
-    {
-        Weapons.Add(new GlacierSpear());
-    }
-
     public override void Attack(Entity target)
     {
         Weapons.Random()?.Use(target);

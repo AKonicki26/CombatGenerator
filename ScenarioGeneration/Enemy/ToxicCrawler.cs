@@ -4,11 +4,6 @@ using Weapon;
 
 public class ToxicCrawler : Enemy
 {
-    public ToxicCrawler()
-    {
-        Weapons.Add(new VenomSpit());
-    }
-
     public override void Attack(Entity target)
     {
         Weapons.Random()?.Use(target);

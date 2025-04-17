@@ -4,11 +4,6 @@ using Weapon;
 
 public class WaterSprite : Enemy
 {
-    public WaterSprite()
-    {
-        Weapons.Add(new AquaJet());
-    }
-
     public override void Attack(Entity target)
     {
         Weapons.Random()?.Use(target);
